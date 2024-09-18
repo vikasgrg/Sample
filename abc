@@ -1,0 +1,2762 @@
+-- Logs begin at Tue 2024-09-17 15:26:04 EDT, end at Tue 2024-09-17 15:29:34 EDT. --
+Sep 17 15:26:04 vertica-65 systemd[1]: Started Show Plymouth Boot Screen.
+-- Subject: Unit plymouth-start.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-start.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:04 vertica-65 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+-- Subject: Unit systemd-ask-password-plymouth.path has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-ask-password-plymouth.path has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:04 vertica-65 systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:05 vertica-65 kernel: VMware PVSCSI driver - version 1.0.7.0-k
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: using 64bit dma
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: max_id: 65
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: setting ring_pages to 32
+Sep 17 15:26:05 vertica-65 kernel: libata version 3.00 loaded.
+Sep 17 15:26:05 vertica-65 kernel: ata_piix 0000:00:07.1: version 2.13
+Sep 17 15:26:05 vertica-65 kernel: scsi host1: ata_piix
+Sep 17 15:26:05 vertica-65 kernel: scsi host2: ata_piix
+Sep 17 15:26:05 vertica-65 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14
+Sep 17 15:26:05 vertica-65 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15
+Sep 17 15:26:05 vertica-65 kernel: VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: enabling reqCallThreshold
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: driver-based request coalescing enabled
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi: using MSI-X
+Sep 17 15:26:05 vertica-65 kernel: scsi host0: VMware PVSCSI storage adapter rev 2, req/cmp/msg rings: 32/32/1 pages, cmd_per_lun=254
+Sep 17 15:26:05 vertica-65 kernel: vmw_pvscsi 0000:03:00.0: VMware PVSCSI rev 2 host #0
+Sep 17 15:26:05 vertica-65 kernel: scsi 0:0:0:0: Direct-Access     VMware   Virtual disk     2.0  PQ: 0 ANSI: 6
+Sep 17 15:26:05 vertica-65 kernel: scsi 0:0:1:0: Direct-Access     VMware   Virtual disk     2.0  PQ: 0 ANSI: 6
+Sep 17 15:26:05 vertica-65 kernel: vmxnet3 0000:0b:00.0: # of Tx queues : 2, # of Rx queues : 2
+Sep 17 15:26:05 vertica-65 kernel: vmxnet3 0000:0b:00.0 eth0: NIC Link is Up 10000 Mbps
+Sep 17 15:26:05 vertica-65 systemd-udevd[416]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 17 15:26:05 vertica-65 kernel: ACPI: bus type drm_connector registered
+Sep 17 15:26:05 vertica-65 systemd-udevd[416]: Using default interface naming scheme 'rhel-8.0'.
+Sep 17 15:26:05 vertica-65 systemd-udevd[416]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 17 15:26:05 vertica-65 kernel: vmxnet3 0000:0b:00.0 ens192: renamed from eth0
+Sep 17 15:26:05 vertica-65 systemd-udevd[417]: Using default interface naming scheme 'rhel-8.0'.
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: vgaarb: deactivate vga console
+Sep 17 15:26:05 vertica-65 kernel: Console: switching to colour dummy device 80x25
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] FIFO at 0x00000000fe000000 size is 8192 kiB
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] VRAM at 0x00000000e8000000 size is 131072 kiB
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Running on SVGA version 2.
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, 8bit emulation, alpha cursor, extended fifo, multimon, pitchlock, irq mask, display topology, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, hp cmd queue, no bb restriction, cap2 register, 
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, screendma reg, otable ptdepth2, non ms to ms stretchblt, cursor mob, mshint, cb max size 4mb, dx3, frame type, trace full fb, extra regs, 
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] DMA map mode: Caching DMA mappings.
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Legacy memory limits: VRAM = 8192 kB, FIFO = 256 kB, surface = 0 kB
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] MOB limits: max mob size = 8192 kB, max mob pages = 6144
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Max GMR ids is 64
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Max number of GMR pages is 65536
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Maximum display memory size is 8192 kiB
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Screen Target display unit initialized
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Using command buffers with DMA pool.
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] Available shader model: Legacy.
+Sep 17 15:26:05 vertica-65 kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:0f.0 on minor 0
+Sep 17 15:26:05 vertica-65 kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+Sep 17 15:26:05 vertica-65 kernel: Console: switching to colour frame buffer device 160x50
+Sep 17 15:26:05 vertica-65 kernel: vmwgfx 0000:00:0f.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Sep 17 15:26:05 vertica-65 kernel: ata2.00: ATAPI: VMware Virtual IDE CDROM Drive, 00000001, max UDMA/33
+Sep 17 15:26:05 vertica-65 kernel: scsi 2:0:0:0: CD-ROM            NECVMWar VMware IDE CDR10 1.00 PQ: 0 ANSI: 5
+Sep 17 15:26:05 vertica-65 kernel: scsi 0:0:0:0: Attached scsi generic sg0 type 0
+Sep 17 15:26:05 vertica-65 kernel: scsi 0:0:1:0: Attached scsi generic sg1 type 0
+Sep 17 15:26:05 vertica-65 kernel: scsi 2:0:0:0: Attached scsi generic sg2 type 5
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:0:0: [sda] 419430400 512-byte logical blocks: (215 GB/200 GiB)
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:0:0: [sda] Write Protect is off
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:0:0: [sda] Mode Sense: 3b 00 00 00
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: disabled, doesn't support DPO or FUA
+Sep 17 15:26:05 vertica-65 kernel:  sda: sda1 sda2
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:1:0: [sdb] 524288000 512-byte logical blocks: (268 GB/250 GiB)
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:1:0: [sdb] Write Protect is off
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:1:0: [sdb] Mode Sense: 3b 00 00 00
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:1:0: [sdb] Write cache: disabled, read cache: disabled, doesn't support DPO or FUA
+Sep 17 15:26:05 vertica-65 kernel: sd 0:0:1:0: [sdb] Attached SCSI disk
+Sep 17 15:26:05 vertica-65 kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+Sep 17 15:26:05 vertica-65 kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Sep 17 15:26:05 vertica-65 kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+Sep 17 15:26:05 vertica-65 kernel: tsc: Refined TSC clocksource calibration: 2297.340 MHz
+Sep 17 15:26:05 vertica-65 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x211d64549a7, max_idle_ns: 440795285220 ns
+Sep 17 15:26:05 vertica-65 kernel: clocksource: Switched to clocksource tsc
+Sep 17 15:26:05 vertica-65 dracut-initqueue[486]: Scanning devices sda2  for LVM logical volumes rhel_vertica-node/root rhel_vertica-node/swap
+Sep 17 15:26:05 vertica-65 dracut-initqueue[511]: inactive '/dev/rhel_vertica-node/pool00' [<151.18 GiB] inherit
+Sep 17 15:26:05 vertica-65 dracut-initqueue[511]: inactive '/dev/rhel_vertica-node/root' [<151.18 GiB] inherit
+Sep 17 15:26:05 vertica-65 dracut-initqueue[511]: inactive '/dev/rhel_vertica-node/swap' [7.90 GiB] inherit
+Sep 17 15:26:05 vertica-65 kernel: device-mapper: thin: Data device (dm-1) discard unsupported: Disabling discard passdown.
+Sep 17 15:26:05 vertica-65 systemd[1]: Found device /dev/mapper/rhel_vertica--node-root.
+-- Subject: Unit dev-mapper-rhel_vertica\x2d\x2dnode\x2droot.device has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dev-mapper-rhel_vertica\x2d\x2dnode\x2droot.device has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:05 vertica-65 systemd[1]: Reached target Initrd Root Device.
+-- Subject: Unit initrd-root-device.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-root-device.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:05 vertica-65 systemd[1]: Found device /dev/mapper/rhel_vertica--node-swap.
+-- Subject: Unit dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.device has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.device has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:05 vertica-65 systemd[1]: Starting Resume from hibernation using device /dev/mapper/rhel_vertica--node-swap...
+-- Subject: Unit systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd-hibernate-resume[558]: Could not resume from '/dev/mapper/rhel_vertica--node-swap' (253:4).
+Sep 17 15:26:06 vertica-65 kernel: PM: Image not found (code -22)
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Resume from hibernation using device /dev/mapper/rhel_vertica--node-swap.
+-- Subject: Unit systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-hibernate-resume@dev-mapper-rhel_vertica\x2d\x2dnode\x2dswap.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Hardware RNG Entropy Gatherer Daemon.
+-- Subject: Unit rngd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rngd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started dracut initqueue hook.
+-- Subject: Unit dracut-initqueue.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-initqueue.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting File System Check on /dev/mapper/rhel_vertica--node-root...
+-- Subject: Unit systemd-fsck-root.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-fsck-root.service has begun starting up.
+Sep 17 15:26:06 vertica-65 rngd[567]: Disabling 7: PKCS11 Entropy generator (pkcs11)
+Sep 17 15:26:06 vertica-65 rngd[567]: Disabling 5: NIST Network Entropy Beacon (nist)
+Sep 17 15:26:06 vertica-65 rngd[567]: Disabling 9: Qrypt quantum entropy beacon (qrypt)
+Sep 17 15:26:06 vertica-65 rngd[567]: Initializing available sources
+Sep 17 15:26:06 vertica-65 rngd[567]: [hwrng ]: Initialization Failed
+Sep 17 15:26:06 vertica-65 rngd[567]: [rdrand]: Enabling RDRAND rng support
+Sep 17 15:26:06 vertica-65 rngd[567]: [rdrand]: Initialized
+Sep 17 15:26:06 vertica-65 rngd[567]: [jitter]: JITTER timeout set to 5 sec
+Sep 17 15:26:06 vertica-65 systemd-fsck[573]: /usr/sbin/fsck.xfs: XFS file system.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started File System Check on /dev/mapper/rhel_vertica--node-root.
+-- Subject: Unit systemd-fsck-root.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-fsck-root.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Mounting /sysroot...
+-- Subject: Unit sysroot.mount has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysroot.mount has begun starting up.
+Sep 17 15:26:06 vertica-65 rngd[567]: [jitter]: Initializing AES buffer
+Sep 17 15:26:06 vertica-65 kernel: SGI XFS with ACLs, security attributes, quota, no debug enabled
+Sep 17 15:26:06 vertica-65 kernel: XFS (dm-3): Mounting V5 Filesystem
+Sep 17 15:26:06 vertica-65 kernel: XFS (dm-3): Ending clean mount
+Sep 17 15:26:06 vertica-65 systemd[1]: Mounted /sysroot.
+-- Subject: Unit sysroot.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysroot.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Initrd Root File System.
+-- Subject: Unit initrd-root-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-root-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Reload Configuration from the Real Root...
+-- Subject: Unit initrd-parse-etc.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-parse-etc.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reloading.
+Sep 17 15:26:06 vertica-65 systemd[1]: initrd-parse-etc.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit initrd-parse-etc.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Reload Configuration from the Real Root.
+-- Subject: Unit initrd-parse-etc.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-parse-etc.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Initrd File Systems.
+-- Subject: Unit initrd-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Initrd Default Target.
+-- Subject: Unit initrd.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting dracut pre-pivot and cleanup hook...
+-- Subject: Unit dracut-pre-pivot.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-pre-pivot.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started dracut pre-pivot and cleanup hook.
+-- Subject: Unit dracut-pre-pivot.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-pre-pivot.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+-- Subject: Unit initrd-cleanup.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-cleanup.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopping Hardware RNG Entropy Gatherer Daemon...
+-- Subject: Unit rngd.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rngd.service has begun shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Plymouth switch root service...
+-- Subject: Unit plymouth-switch-root.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-switch-root.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: dracut-pre-pivot.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit dracut-pre-pivot.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped dracut pre-pivot and cleanup hook.
+-- Subject: Unit dracut-pre-pivot.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-pre-pivot.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs-pre.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: dracut-initqueue.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit dracut-initqueue.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped dracut initqueue hook.
+-- Subject: Unit dracut-initqueue.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-initqueue.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Setup Virtual Console...
+-- Subject: Unit systemd-vconsole-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-vconsole-setup.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Timers.
+-- Subject: Unit timers.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit timers.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Initrd Default Target.
+-- Subject: Unit initrd.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Initrd Root Device.
+-- Subject: Unit initrd-root-device.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-root-device.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: initrd-cleanup.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit initrd-cleanup.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Cleaning Up and Shutting Down Daemons.
+-- Subject: Unit initrd-cleanup.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-cleanup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: rngd.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit rngd.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Hardware RNG Entropy Gatherer Daemon.
+-- Subject: Unit rngd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rngd.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Basic System.
+-- Subject: Unit basic.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit basic.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Sockets.
+-- Subject: Unit sockets.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sockets.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Slices.
+-- Subject: Unit slices.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit slices.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Paths.
+-- Subject: Unit paths.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit paths.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target System Initialization.
+-- Subject: Unit sysinit.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysinit.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-sysctl.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-sysctl.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-sysctl.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopping udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd.service has begun shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Swap.
+-- Subject: Unit swap.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit swap.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-tmpfiles-setup.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-tmpfiles-setup.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Local File Systems.
+-- Subject: Unit local-fs.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs-pre.target has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-udev-trigger.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-udev-trigger.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped udev Coldplug all Devices.
+-- Subject: Unit systemd-udev-trigger.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udev-trigger.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-modules-load.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-modules-load.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Load Kernel Modules.
+-- Subject: Unit systemd-modules-load.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-modules-load.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-udevd.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-udevd.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-tmpfiles-setup-dev.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-tmpfiles-setup-dev.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: kmod-static-nodes.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit kmod-static-nodes.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped Create list of required static device nodes for the current kernel.
+-- Subject: Unit kmod-static-nodes.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit kmod-static-nodes.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: dracut-pre-udev.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit dracut-pre-udev.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped dracut pre-udev hook.
+-- Subject: Unit dracut-pre-udev.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-pre-udev.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: dracut-cmdline.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit dracut-cmdline.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Stopped dracut cmdline hook.
+-- Subject: Unit dracut-cmdline.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-cmdline.service has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-udevd-kernel.socket: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-udevd-kernel.socket has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Closed udev Kernel Socket.
+-- Subject: Unit systemd-udevd-kernel.socket has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd-kernel.socket has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-udevd-control.socket: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-udevd-control.socket has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Closed udev Control Socket.
+-- Subject: Unit systemd-udevd-control.socket has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd-control.socket has finished shutting down.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Cleanup udevd DB...
+-- Subject: Unit initrd-udevadm-cleanup-db.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-udevadm-cleanup-db.service has begun starting up.
+Sep 17 15:26:06 vertica-65 systemd[1]: initrd-udevadm-cleanup-db.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit initrd-udevadm-cleanup-db.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Cleanup udevd DB.
+-- Subject: Unit initrd-udevadm-cleanup-db.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-udevadm-cleanup-db.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: systemd-vconsole-setup.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-vconsole-setup.service has successfully entered the 'dead' state.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Setup Virtual Console.
+-- Subject: Unit systemd-vconsole-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-vconsole-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Reached target Switch Root.
+-- Subject: Unit initrd-switch-root.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-switch-root.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Started Plymouth switch root service.
+-- Subject: Unit plymouth-switch-root.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-switch-root.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:06 vertica-65 systemd[1]: Starting Switch Root...
+-- Subject: Unit initrd-switch-root.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit initrd-switch-root.service has begun starting up.
+Sep 17 15:26:07 vertica-65 systemd[1]: Switching root.
+Sep 17 15:26:07 vertica-65 systemd-journald[249]: Journal stopped
+-- Subject: The journal has been stopped
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The system journal process has shut down and closed all currently
+-- active journal files.
+Sep 17 15:26:08 vertica-65 kernel: printk: systemd: 20 output lines suppressed due to ratelimiting
+Sep 17 15:26:08 vertica-65 kernel: SELinux:  Disabled at runtime.
+Sep 17 15:26:08 vertica-65 kernel: audit: type=1404 audit(1726601167.692:2): enforcing=0 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=0 old-enabled=1 lsm=selinux res=1
+Sep 17 15:26:08 vertica-65 systemd[1]: systemd 239 (239-82.el8_10.1) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+Sep 17 15:26:08 vertica-65 systemd[1]: Detected virtualization vmware.
+Sep 17 15:26:08 vertica-65 systemd[1]: Detected architecture x86-64.
+Sep 17 15:26:08 vertica-65 systemd[1]: Set hostname to <vertica-65>.
+Sep 17 15:26:08 vertica-65 systemd[1]: initrd-switch-root.service: Succeeded.
+Sep 17 15:26:08 vertica-65 systemd[1]: Stopped Switch Root.
+Sep 17 15:26:08 vertica-65 systemd[1]: systemd-journald.service: Service has no hold-off time (RestartSec=0), scheduling restart.
+Sep 17 15:26:08 vertica-65 systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+Sep 17 15:26:08 vertica-65 systemd[1]: Stopped Journal Service.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting Journal Service...
+Sep 17 15:26:08 vertica-65 kernel: Adding 8286204k swap on /dev/mapper/rhel_vertica--node-swap.  Priority:-2 extents:1 across:8286204k FS
+Sep 17 15:26:08 vertica-65 systemd-journald[686]: Journal started
+-- Subject: The journal has been started
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The system journal process has started up, opened the journal
+-- files for writing and is now ready to process requests.
+Sep 17 15:26:08 vertica-65 systemd-journald[686]: Runtime journal (/run/log/journal/3b844c919ce545e08230a243e215d6ea) is 8.0M, max 384.8M, 376.8M free.
+-- Subject: Disk space used by the journal
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Runtime journal (/run/log/journal/3b844c919ce545e08230a243e215d6ea) is currently using 8.0M.
+-- Maximum allowed usage is set to 384.8M.
+-- Leaving at least 577.3M free (of currently available 3.7G of disk space).
+-- Enforced usage limit is thus 384.8M, of which 376.8M are still available.
+-- 
+-- The limits controlling how much disk space is used by the journal may
+-- be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+-- RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+-- /etc/systemd/journald.conf. See journald.conf(5) for details.
+Sep 17 15:26:08 vertica-65 systemd[1]: systemd-journald.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-journald.service has successfully entered the 'dead' state.
+Sep 17 15:26:08 vertica-65 systemd[1]: Mounted Huge Pages File System.
+-- Subject: Unit dev-hugepages.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dev-hugepages.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Remount Root and Kernel File Systems.
+-- Subject: Unit systemd-remount-fs.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-remount-fs.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Mounted Kernel Debug File System.
+-- Subject: Unit sys-kernel-debug.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sys-kernel-debug.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Create list of required static device nodes for the current kernel.
+-- Subject: Unit kmod-static-nodes.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit kmod-static-nodes.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Mounted POSIX Message Queue File System.
+-- Subject: Unit dev-mqueue.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dev-mqueue.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Read and set NIS domainname from /etc/sysconfig/network.
+-- Subject: Unit nis-domainname.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit nis-domainname.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Device-mapper event daemon.
+-- Subject: Unit dm-event.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dm-event.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting Load/Save Random Seed...
+-- Subject: Unit systemd-random-seed.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-random-seed.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting Create Static Device Nodes in /dev...
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Reached target Swap.
+-- Subject: Unit swap.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit swap.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 dmeventd[707]: dmeventd ready for processing.
+Sep 17 15:26:08 vertica-65 systemd-journald[686]: Runtime journal (/run/log/journal/3b844c919ce545e08230a243e215d6ea) is 8.0M, max 384.8M, 376.8M free.
+-- Subject: Disk space used by the journal
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Runtime journal (/run/log/journal/3b844c919ce545e08230a243e215d6ea) is currently using 8.0M.
+-- Maximum allowed usage is set to 384.8M.
+-- Leaving at least 577.3M free (of currently available 3.7G of disk space).
+-- Enforced usage limit is thus 384.8M, of which 376.8M are still available.
+-- 
+-- The limits controlling how much disk space is used by the journal may
+-- be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+-- RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+-- /etc/systemd/journald.conf. See journald.conf(5) for details.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Load Kernel Modules.
+-- Subject: Unit systemd-modules-load.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-modules-load.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting Apply Kernel Variables...
+-- Subject: Unit systemd-sysctl.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-sysctl.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Mounting FUSE Control File System...
+-- Subject: Unit sys-fs-fuse-connections.mount has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sys-fs-fuse-connections.mount has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-sysctl.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started udev Coldplug all Devices.
+-- Subject: Unit systemd-udev-trigger.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udev-trigger.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Starting udev Wait for Complete Device Initialization...
+-- Subject: Unit systemd-udev-settle.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udev-settle.service has begun starting up.
+Sep 17 15:26:08 vertica-65 systemd[1]: systemd-vconsole-setup.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-vconsole-setup.service has successfully entered the 'dead' state.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Setup Virtual Console.
+-- Subject: Unit systemd-vconsole-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-vconsole-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 dmeventd[707]: Monitoring thin pool rhel_vertica--node-pool00-tpool.
+Sep 17 15:26:08 vertica-65 lvm[695]:   5 logical volume(s) in volume group "rhel_vertica-node" monitored
+Sep 17 15:26:08 vertica-65 systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+-- Subject: Unit lvm2-monitor.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit lvm2-monitor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:08 vertica-65 systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udevd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Sep 17 15:26:09 vertica-65 kernel: vmw_vmci 0000:00:07.7: Using capabilities 0x1c
+Sep 17 15:26:09 vertica-65 kernel: Guest personality initialized and is active
+Sep 17 15:26:09 vertica-65 kernel: VMCI host device registered (name=vmci, major=10, minor=125)
+Sep 17 15:26:09 vertica-65 kernel: Initialized host personality
+Sep 17 15:26:09 vertica-65 kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Sep 17 15:26:09 vertica-65 systemd-udevd[735]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 17 15:26:09 vertica-65 kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Sep 17 15:26:09 vertica-65 systemd[1]: Condition check resulted in Virtual_disk 2 being skipped.
+-- Subject: Unit dev-block-8:2.device has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dev-block-8:2.device has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+-- Subject: Unit system-lvm2\x2dpvscan.slice has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit system-lvm2\x2dpvscan.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Starting LVM event activation on device 8:2...
+-- Subject: Unit lvm2-pvscan@8:2.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit lvm2-pvscan@8:2.service has begun starting up.
+Sep 17 15:26:09 vertica-65 kernel: EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+Sep 17 15:26:09 vertica-65 kernel: EDAC sbridge:  Ver: 1.1.2 
+Sep 17 15:26:09 vertica-65 lvm[786]:   pvscan[786] PV /dev/sda2 online, VG rhel_vertica-node is complete.
+Sep 17 15:26:09 vertica-65 lvm[786]:   pvscan[786] VG rhel_vertica-node run autoactivation.
+Sep 17 15:26:09 vertica-65 lvm[786]:   3 logical volume(s) in volume group "rhel_vertica-node" now active
+Sep 17 15:26:09 vertica-65 systemd[1]: Started LVM event activation on device 8:2.
+-- Subject: Unit lvm2-pvscan@8:2.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit lvm2-pvscan@8:2.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd-udevd[740]: Using default interface naming scheme 'rhel-8.0'.
+Sep 17 15:26:09 vertica-65 systemd-udevd[740]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 17 15:26:09 vertica-65 systemd[1]: Started udev Wait for Complete Device Initialization.
+-- Subject: Unit systemd-udev-settle.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-udev-settle.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Mounting /boot...
+-- Subject: Unit boot.mount has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit boot.mount has begun starting up.
+Sep 17 15:26:09 vertica-65 kernel: XFS (sda1): Mounting V5 Filesystem
+Sep 17 15:26:09 vertica-65 kernel: XFS (sda1): Ending clean mount
+Sep 17 15:26:09 vertica-65 systemd[1]: Mounted /boot.
+-- Subject: Unit boot.mount has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit boot.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:09 vertica-65 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: Unit plymouth-read-write.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-read-write.service has begun starting up.
+Sep 17 15:26:09 vertica-65 systemd[1]: Starting Mark the need to relabel after reboot...
+-- Subject: Unit selinux-autorelabel-mark.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit selinux-autorelabel-mark.service has begun starting up.
+Sep 17 15:26:09 vertica-65 systemd[1]: Starting Import network configuration from initramfs...
+-- Subject: Unit import-state.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit import-state.service has begun starting up.
+Sep 17 15:26:09 vertica-65 systemd[1]: Started Mark the need to relabel after reboot.
+-- Subject: Unit selinux-autorelabel-mark.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit selinux-autorelabel-mark.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Received SIGRTMIN+20 from PID 400 (plymouthd).
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Unit plymouth-read-write.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-read-write.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Import network configuration from initramfs.
+-- Subject: Unit import-state.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit import-state.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Security Auditing Service...
+-- Subject: Unit auditd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit auditd.service has begun starting up.
+Sep 17 15:26:10 vertica-65 auditd[825]: audit dispatcher initialized with q_depth=2000 and 1 active plugins
+Sep 17 15:26:10 vertica-65 auditd[825]: Init complete, auditd 3.1.2 listening for events (startup state enable)
+Sep 17 15:26:10 vertica-65 augenrules[830]: /sbin/augenrules: No change
+Sep 17 15:26:10 vertica-65 augenrules[840]: No rules
+Sep 17 15:26:10 vertica-65 augenrules[840]: enabled 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: failure 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: pid 825
+Sep 17 15:26:10 vertica-65 augenrules[840]: rate_limit 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_limit 8192
+Sep 17 15:26:10 vertica-65 augenrules[840]: lost 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time 60000
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time_actual 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: enabled 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: failure 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: pid 825
+Sep 17 15:26:10 vertica-65 augenrules[840]: rate_limit 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_limit 8192
+Sep 17 15:26:10 vertica-65 augenrules[840]: lost 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time 60000
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time_actual 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: enabled 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: failure 1
+Sep 17 15:26:10 vertica-65 augenrules[840]: pid 825
+Sep 17 15:26:10 vertica-65 augenrules[840]: rate_limit 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_limit 8192
+Sep 17 15:26:10 vertica-65 augenrules[840]: lost 0
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog 4
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time 60000
+Sep 17 15:26:10 vertica-65 augenrules[840]: backlog_wait_time_actual 0
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Security Auditing Service.
+-- Subject: Unit auditd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit auditd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Generate summary of yesterday's process accounting.
+-- Subject: Unit sysstat-summary.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysstat-summary.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Listening on SSSD Kerberos Cache Manager responder socket.
+-- Subject: Unit sssd-kcm.socket has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sssd-kcm.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Run system activity accounting tool every 10 minutes.
+-- Subject: Unit sysstat-collect.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysstat-collect.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started dnf makecache --timer.
+-- Subject: Unit dnf-makecache.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dnf-makecache.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started daily update of the root trust anchor for DNSSEC.
+-- Subject: Unit unbound-anchor.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit unbound-anchor.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Listening on Open-iSCSI iscsiuio Socket.
+-- Subject: Unit iscsiuio.socket has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit iscsiuio.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Listening on Open-iSCSI iscsid Socket.
+-- Subject: Unit iscsid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit iscsid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Resets System Activity Logs...
+-- Subject: Unit sysstat.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysstat.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Machine Check Exception Logging Daemon.
+-- Subject: Unit mcelog.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit mcelog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Hardware RNG Entropy Gatherer Daemon.
+-- Subject: Unit rngd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rngd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started irqbalance daemon.
+-- Subject: Unit irqbalance.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit irqbalance.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started libstoragemgmt plug-in server daemon.
+-- Subject: Unit libstoragemgmt.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit libstoragemgmt.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Restore /run/initramfs on shutdown...
+-- Subject: Unit dracut-shutdown.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-shutdown.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started VGAuth Service for open-vm-tools.
+-- Subject: Unit vgauthd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit vgauthd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Service for virtual machines hosted on VMware.
+-- Subject: Unit vmtoolsd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit vmtoolsd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Network Manager...
+-- Subject: Unit NetworkManager.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+-- Subject: Unit smartd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit smartd.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target sshd-keygen.target.
+-- Subject: Unit sshd-keygen.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sshd-keygen.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting VDO volume services...
+-- Subject: Unit vdo.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit vdo.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target User and Group Name Lookups.
+-- Subject: Unit nss-user-lookup.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit nss-user-lookup.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-logind.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting NTP client/server...
+-- Subject: Unit chronyd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit chronyd.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started dnf-automatic timer.
+-- Subject: Unit dnf-automatic.timer has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dnf-automatic.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Resets System Activity Logs.
+-- Subject: Unit sysstat.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sysstat.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Restore /run/initramfs on shutdown.
+-- Subject: Unit dracut-shutdown.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit dracut-shutdown.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd-logind[863]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Sep 17 15:26:10 vertica-65 systemd-logind[863]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 17 15:26:10 vertica-65 systemd-logind[863]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 17 15:26:10 vertica-65 VGAuthService[856]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+Sep 17 15:26:10 vertica-65 chronyd[875]: chronyd version 4.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Sep 17 15:26:10 vertica-65 VGAuthService[856]: Core dump limit set to -1
+Sep 17 15:26:10 vertica-65 chronyd[875]: Loaded 0 symmetric keys
+Sep 17 15:26:10 vertica-65 chronyd[875]: Frequency -4.818 +/- 0.012 ppm read from /var/lib/chrony/drift
+Sep 17 15:26:10 vertica-65 chronyd[875]: Using right/UTC timezone to obtain leap second data
+Sep 17 15:26:10 vertica-65 smartd[861]: smartd 7.1 2019-12-30 r5022 [x86_64-linux-4.18.0-553.16.1.el8_10.x86_64] (local build)
+Sep 17 15:26:10 vertica-65 smartd[861]: Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+Sep 17 15:26:10 vertica-65 smartd[861]: Opened configuration file /etc/smartmontools/smartd.conf
+Sep 17 15:26:10 vertica-65 smartd[861]: Configuration file /etc/smartmontools/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sda, opened
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sda, [VMware   Virtual disk     2.0 ], 214 GB
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sda, IE (SMART) not enabled, skip device
+Sep 17 15:26:10 vertica-65 smartd[861]: Try 'smartctl -s on /dev/sda' to turn on SMART features
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sdb, opened
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sdb, [VMware   Virtual disk     2.0 ], 268 GB
+Sep 17 15:26:10 vertica-65 smartd[861]: Device: /dev/sdb, IE (SMART) not enabled, skip device
+Sep 17 15:26:10 vertica-65 smartd[861]: Try 'smartctl -s on /dev/sdb' to turn on SMART features
+Sep 17 15:26:10 vertica-65 kernel: NET: Registered protocol family 40
+Sep 17 15:26:10 vertica-65 smartd[861]: Monitoring 0 ATA/SATA, 0 SCSI/SAS and 0 NVMe devices
+Sep 17 15:26:10 vertica-65 rngd[851]: Disabling 7: PKCS11 Entropy generator (pkcs11)
+Sep 17 15:26:10 vertica-65 rngd[851]: Disabling 5: NIST Network Entropy Beacon (nist)
+Sep 17 15:26:10 vertica-65 rngd[851]: Disabling 9: Qrypt quantum entropy beacon (qrypt)
+Sep 17 15:26:10 vertica-65 rngd[851]: Initializing available sources
+Sep 17 15:26:10 vertica-65 rngd[851]: [hwrng ]: Initialization Failed
+Sep 17 15:26:10 vertica-65 rngd[851]: [rdrand]: Enabling RDRAND rng support
+Sep 17 15:26:10 vertica-65 rngd[851]: [rdrand]: Initialized
+Sep 17 15:26:10 vertica-65 rngd[851]: [jitter]: JITTER timeout set to 5 sec
+Sep 17 15:26:10 vertica-65 rngd[851]: [jitter]: Initializing AES buffer
+Sep 17 15:26:10 vertica-65 NetworkManager[859]: <info>  [1726601170.7180] NetworkManager (version 1.40.16-15.el8_9) is starting... (boot:6fe10913-668a-432f-9200-4e575ca95d36)
+Sep 17 15:26:10 vertica-65 NetworkManager[859]: <info>  [1726601170.7180] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 00-server.conf) (run: 15-carrier-timeout.conf)
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Self Monitoring and Reporting Technology (SMART) Daemon.
+-- Subject: Unit smartd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit smartd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Network Manager.
+-- Subject: Unit NetworkManager.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Enable periodic update of entitlement certificates....
+-- Subject: Unit rhsmcertd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rhsmcertd.service has begun starting up.
+Sep 17 15:26:10 vertica-65 NetworkManager[859]: <info>  [1726601170.8533] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Universal Discovery Agent.
+-- Subject: Unit udagent.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit udagent.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Logout off all iSCSI sessions on shutdown...
+-- Subject: Unit iscsi-shutdown.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit iscsi-shutdown.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Dynamic System Tuning Daemon...
+-- Subject: Unit tuned.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit tuned.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Apache Tomcat Web Application Container.
+-- Subject: Unit tomcat.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit tomcat.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:26:10 vertica-65 NetworkManager[859]: <info>  [1726601170.8770] manager[0x556a59356080]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 17 15:26:10 vertica-65 dbus-daemon[855]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=0 pid=859 comm="/usr/sbin/NetworkManager --no-daemon ")
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting OpenSSH server daemon...
+-- Subject: Unit sshd.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sshd.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Network Manager Wait Online...
+-- Subject: Unit NetworkManager-wait-online.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager-wait-online.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Logout off all iSCSI sessions on shutdown.
+-- Subject: Unit iscsi-shutdown.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit iscsi-shutdown.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started Enable periodic update of entitlement certificates..
+-- Subject: Unit rhsmcertd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rhsmcertd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started NTP client/server.
+-- Subject: Unit chronyd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit chronyd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:10 vertica-65 sshd[899]: Server listening on 0.0.0.0 port 22.
+Sep 17 15:26:10 vertica-65 sshd[899]: Server listening on :: port 22.
+Sep 17 15:26:10 vertica-65 systemd[1]: Started OpenSSH server daemon.
+-- Subject: Unit sshd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit sshd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 server[896]: Java virtual machine used: /usr/lib/jvm/jre/bin/java
+Sep 17 15:26:11 vertica-65 server[896]: classpath used: /usr/share/tomcat/bin/bootstrap.jar:/usr/share/tomcat/bin/tomcat-juli.jar:
+Sep 17 15:26:11 vertica-65 server[896]: main class used: org.apache.catalina.startup.Bootstrap
+Sep 17 15:26:11 vertica-65 server[896]: flags used: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+Sep 17 15:26:11 vertica-65 server[896]: options used: -Dcatalina.base=/usr/share/tomcat -Dcatalina.home=/usr/share/tomcat -Djava.endorsed.dirs= -Djava.io.tmpdir=/var/cache/tomcat/temp -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 17 15:26:11 vertica-65 server[896]: arguments used: start
+Sep 17 15:26:11 vertica-65 dbus-daemon[855]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.2250] hostname: hostname: using hostnamed
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.2251] hostname: static hostname changed from (none) to "vertica-65"
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.2255] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3389] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.40.16-15.el8_9/libnm-device-plugin-team.so)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3389] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3389] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3390] manager: Networking is enabled by state file
+Sep 17 15:26:11 vertica-65 dbus-daemon[855]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=859 comm="/usr/sbin/NetworkManager --no-daemon ")
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3600] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.40.16-15.el8_9/libnm-settings-plugin-ifcfg-rh.so")
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3601] settings: Loaded settings plugin: keyfile (internal)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3699] dhcp: init: Using DHCP client 'internal'
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3700] device (lo): carrier: link connected
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3703] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3718] manager: (ens192): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3721] device (ens192): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 17 15:26:11 vertica-65 kernel: IPv6: ADDRCONF(NETDEV_UP): ens192: link is not ready
+Sep 17 15:26:11 vertica-65 kernel: vmxnet3 0000:0b:00.0 ens192: intr type 3, mode 0, 3 vectors allocated
+Sep 17 15:26:11 vertica-65 kernel: vmxnet3 0000:0b:00.0 ens192: NIC Link is Up 10000 Mbps
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3858] device (ens192): carrier: link connected
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3884] device (ens192): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3893] policy: auto-activating connection 'ens192' (03da7500-2101-c722-2438-d0d006c28c73)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3898] device (ens192): Activation: starting connection 'ens192' (03da7500-2101-c722-2438-d0d006c28c73)
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3899] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3900] manager: NetworkManager state is now CONNECTING
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3902] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3912] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.3920] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Sep 17 15:26:11 vertica-65 dbus-daemon[855]: [system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.2' (uid=0 pid=859 comm="/usr/sbin/NetworkManager --no-daemon ")
+Sep 17 15:26:11 vertica-65 dbus-daemon[855]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4100] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 dbus-daemon[855]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4806] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4808] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4810] manager: NetworkManager state is now CONNECTED_SITE
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4812] device (ens192): Activation: successful, device activated.
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4816] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 17 15:26:11 vertica-65 NetworkManager[859]: <info>  [1726601171.4818] manager: startup complete
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Network Manager Wait Online.
+-- Subject: Unit NetworkManager-wait-online.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit NetworkManager-wait-online.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Reached target Network is Online.
+-- Subject: Unit network-online.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit network-online.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting System Logging Service...
+-- Subject: Unit rsyslog.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rsyslog.service has begun starting up.
+Sep 17 15:26:11 vertica-65 systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting Crash recovery kernel arming...
+-- Subject: Unit kdump.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit kdump.service has begun starting up.
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Command Scheduler.
+-- Subject: Unit crond.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit crond.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Job spooling tools.
+-- Subject: Unit atd.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit atd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: Unit plymouth-quit-wait.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-quit-wait.service has begun starting up.
+Sep 17 15:26:11 vertica-65 systemd[1]: Starting Terminate Plymouth Boot Screen...
+-- Subject: Unit plymouth-quit.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-quit.service has begun starting up.
+Sep 17 15:26:11 vertica-65 systemd[1]: Received SIGRTMIN+21 from PID 400 (n/a).
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Hold until boot process finishes up.
+-- Subject: Unit plymouth-quit-wait.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-quit-wait.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Terminate Plymouth Boot Screen.
+-- Subject: Unit plymouth-quit.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit plymouth-quit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Started Getty on tty1.
+-- Subject: Unit getty@tty1.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit getty@tty1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 systemd[1]: Reached target Login Prompts.
+-- Subject: Unit getty.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit getty.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:11 vertica-65 crond[961]: (CRON) STARTUP (1.5.2)
+Sep 17 15:26:11 vertica-65 crond[961]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Sep 17 15:26:11 vertica-65 crond[961]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 26% if used.)
+Sep 17 15:26:11 vertica-65 crond[961]: (CRON) INFO (running with inotify support)
+Sep 17 15:26:11 vertica-65 systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Sep 17 15:26:11 vertica-65 rsyslogd[954]: [origin software="rsyslogd" swVersion="8.2102.0-15.el8" x-pid="954" x-info="https://www.rsyslog.com"] start
+Sep 17 15:26:11 vertica-65 systemd[1]: Started System Logging Service.
+-- Subject: Unit rsyslog.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit rsyslog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:12 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:3b:b1 detected!
+Sep 17 15:26:12 vertica-65 rsyslogd[954]: imjournal: journal files changed, reloading...  [v8.2102.0-15.el8 try https://www.rsyslog.com/e/0 ]
+Sep 17 15:26:12 vertica-65 systemd[1]: Started VDO volume services.
+-- Subject: Unit vdo.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit vdo.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:12 vertica-65 kdumpctl[981]: kdump: No kdump initial ramdisk found.
+Sep 17 15:26:12 vertica-65 kdumpctl[981]: kdump: Rebuilding /boot/initramfs-4.18.0-553.16.1.el8_10.x86_64kdump.img
+Sep 17 15:26:12 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:02:03 detected!
+Sep 17 15:26:12 vertica-65 jenkins[897]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:26:12 vertica-65 jenkins[897]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:26:12 vertica-65 jenkins[897]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:26:12 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:26:12 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:12 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:13 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:26:13 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:26:13 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:26:13 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:26:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:00:99 detected!
+Sep 17 15:26:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:5a:01 detected!
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-553.16.1.el8_10.x86_64
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.422.b05-2.el8.x86_64/jre
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/share/tomcat
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/share/tomcat
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/var/cache/tomcat/temp
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 17 15:26:14 vertica-65 server[896]: 17-Sep-2024 15:26:14.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Sep 17 15:26:14 vertica-65 dbus-daemon[855]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.10' (uid=0 pid=895 comm="/usr/libexec/platform-python -Es /usr/sbin/tuned -")
+Sep 17 15:26:14 vertica-65 systemd[1]: Starting Authorization Manager...
+-- Subject: Unit polkit.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit polkit.service has begun starting up.
+Sep 17 15:26:14 vertica-65 polkitd[1450]: Started polkitd version 0.115
+Sep 17 15:26:14 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:bb:fe detected!
+Sep 17 15:26:14 vertica-65 systemd[1]: Started Dynamic System Tuning Daemon.
+-- Subject: Unit tuned.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit tuned.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:14 vertica-65 polkitd[1450]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 17 15:26:14 vertica-65 polkitd[1450]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 17 15:26:14 vertica-65 polkitd[1450]: Finished loading, compiling and executing 4 rules
+Sep 17 15:26:14 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:df:91 detected!
+Sep 17 15:26:14 vertica-65 NetworkManager[859]: <warn>  [1726601174.6894] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:26:14 vertica-65 dbus-daemon[855]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Sep 17 15:26:14 vertica-65 jenkins[1234]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:26:14 vertica-65 jenkins[1234]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:26:14 vertica-65 jenkins[1234]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:26:14 vertica-65 systemd[1]: Started Authorization Manager.
+-- Subject: Unit polkit.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit polkit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:14 vertica-65 polkitd[1450]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 17 15:26:14 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:26:14 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:14 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:14 vertica-65 systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:14 vertica-65 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+Sep 17 15:26:14 vertica-65 systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+Sep 17 15:26:14 vertica-65 systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:15 vertica-65 rngd[851]: [jitter]: Unable to obtain AES key, disabling JITTER source
+Sep 17 15:26:15 vertica-65 rngd[851]: [jitter]: Initialization Failed
+Sep 17 15:26:15 vertica-65 rngd[851]: Process privileges have been dropped to 2:2
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:26:15 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:26:15 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:26:15 vertica-65 server[896]: 17-Sep-2024 15:26:15.192 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+Sep 17 15:26:15 vertica-65 server[896]: 17-Sep-2024 15:26:15.231 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1693] milliseconds
+Sep 17 15:26:15 vertica-65 server[896]: 17-Sep-2024 15:26:15.351 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Sep 17 15:26:15 vertica-65 server[896]: 17-Sep-2024 15:26:15.351 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+Sep 17 15:26:15 vertica-65 server[896]: 17-Sep-2024 15:26:15.387 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/var/lib/tomcat/webapps/java-tomcat-maven-example.war]
+Sep 17 15:26:15 vertica-65 jenkins[1539]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:26:15 vertica-65 jenkins[1539]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:26:15 vertica-65 jenkins[1539]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:15 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:26:15 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:26:15 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:26:15 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:26:16 vertica-65 server[896]: 17-Sep-2024 15:26:16.148 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 17 15:26:16 vertica-65 server[896]: 17-Sep-2024 15:26:16.185 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/var/lib/tomcat/webapps/java-tomcat-maven-example.war] has finished in [797] ms
+Sep 17 15:26:16 vertica-65 server[896]: 17-Sep-2024 15:26:16.208 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+Sep 17 15:26:16 vertica-65 server[896]: 17-Sep-2024 15:26:16.223 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [991] milliseconds
+Sep 17 15:26:16 vertica-65 dracut[1763]: dracut-049-233.git20240115.el8
+Sep 17 15:26:16 vertica-65 jenkins[1691]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:26:16 vertica-65 jenkins[1691]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:26:16 vertica-65 jenkins[1691]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:26:16 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:26:16 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:16 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:16 vertica-65 chronyd[875]: Selected source 45.79.111.167 (2.rhel.pool.ntp.org)
+Sep 17 15:26:16 vertica-65 chronyd[875]: System clock TAI offset set to 37 seconds
+Sep 17 15:26:16 vertica-65 dracut[1765]: Executing: /usr/bin/dracut --add kdumpbase --quiet --hostonly --hostonly-cmdline --hostonly-i18n --hostonly-mode strict --hostonly-nics  -o "plymouth dash resume ifcfg earlykdump" --compress=xz --mount "/dev/mapper/rhel_vertica--node-root /sysroot xfs rw,relatime,attr2,inode64,logbufs=8,logbsize=64k,sunit=128,swidth=128,noquota,nofail,x-systemd.before=initrd-fs.target" --no-hostonly-default-device -f /boot/initramfs-4.18.0-553.16.1.el8_10.x86_64kdump.img 4.18.0-553.16.1.el8_10.x86_64
+Sep 17 15:26:16 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:26:16 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:26:16 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:26:16 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:26:16 vertica-65 dracut[1765]: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Sep 17 15:26:16 vertica-65 dracut[1765]: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Sep 17 15:26:17 vertica-65 jenkins[1912]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:26:17 vertica-65 jenkins[1912]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:26:17 vertica-65 jenkins[1912]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:17 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:17 vertica-65 dracut[1765]: dracut module 'ifcfg' will not be installed, because it's in the list to be omitted!
+Sep 17 15:26:17 vertica-65 dracut[1765]: dracut module 'plymouth' will not be installed, because it's in the list to be omitted!
+Sep 17 15:26:17 vertica-65 dracut[1765]: dracut module 'btrfs' will not be installed, because command 'btrfs' could not be found!
+Sep 17 15:26:17 vertica-65 dracut[1765]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:26:17 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Start request repeated too quickly.
+Sep 17 15:26:17 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:26:17 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:26:17 vertica-65 dracut[1765]: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Sep 17 15:26:18 vertica-65 dracut[1765]: 95nfs: Could not find any command of 'rpcbind portmap'!
+Sep 17 15:26:18 vertica-65 dracut[1765]: dracut module 'resume' will not be installed, because it's in the list to be omitted!
+Sep 17 15:26:18 vertica-65 dracut[1765]: dracut module 'earlykdump' will not be installed, because it's in the list to be omitted!
+Sep 17 15:26:18 vertica-65 dracut[3385]: Executing: /usr/bin/dracut --list-modules
+Sep 17 15:26:18 vertica-65 dracut[1765]: memstrack is available
+Sep 17 15:26:18 vertica-65 dracut[1765]: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Sep 17 15:26:19 vertica-65 dracut[1765]: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Sep 17 15:26:19 vertica-65 dracut[1765]: dracut module 'btrfs' will not be installed, because command 'btrfs' could not be found!
+Sep 17 15:26:19 vertica-65 dracut[1765]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Sep 17 15:26:19 vertica-65 dracut[1765]: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Sep 17 15:26:20 vertica-65 dracut[1765]: 95nfs: Could not find any command of 'rpcbind portmap'!
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: bash ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: systemd ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: systemd-initrd ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: watchdog-modules ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: nss-softokn ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: rngd ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: i18n ***
+Sep 17 15:26:20 vertica-65 dracut[1765]: *** Including module: drm ***
+Sep 17 15:26:21 vertica-65 dracut[1765]: *** Including module: prefixdevname ***
+Sep 17 15:26:21 vertica-65 dracut[1765]: *** Including module: lvmthinpool-monitor ***
+Sep 17 15:26:21 vertica-65 dracut[1765]: *** Including module: dm ***
+Sep 17 15:26:21 vertica-65 dracut[1765]: Skipping udev rule: 64-device-mapper.rules
+Sep 17 15:26:21 vertica-65 dracut[1765]: Skipping udev rule: 60-persistent-storage-dm.rules
+Sep 17 15:26:21 vertica-65 dracut[1765]: Skipping udev rule: 55-dm.rules
+Sep 17 15:26:21 vertica-65 dracut[1765]: *** Including module: kernel-modules ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: kernel-modules-extra ***
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: configuration source "/run/depmod.d/" does not exist
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: configuration source "/lib/depmod.d/" does not exist
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: parsing configuration file "/etc/depmod.d//dist.conf"
+Sep 17 15:26:22 vertica-65 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: /etc/depmod.d//dist.conf: added "updates extra built-in weak-updates" to the list of search directories
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: parsing configuration file "/etc/depmod.d//kvdo.conf"
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: /etc/depmod.d//kvdo.conf: override "uds 4.18.0-526.el8.* weak-updates/kmod-kvdo/uds" is ignored since "4.18.0-526.el8.*" doesn't match "4.18.0-553.16.1.el8_10.x86_64"
+Sep 17 15:26:22 vertica-65 dracut[1765]:   kernel-modules-extra: /etc/depmod.d//kvdo.conf: override "kvdo 4.18.0-526.el8.* weak-updates/kmod-kvdo/vdo" is ignored since "4.18.0-526.el8.*" doesn't match "4.18.0-553.16.1.el8_10.x86_64"
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: lvm ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: Skipping udev rule: 64-device-mapper.rules
+Sep 17 15:26:22 vertica-65 dracut[1765]: Skipping udev rule: 56-lvm.rules
+Sep 17 15:26:22 vertica-65 dracut[1765]: Skipping udev rule: 60-persistent-storage-lvm.rules
+Sep 17 15:26:22 vertica-65 chronyd[875]: Received KoD RATE from 172.232.28.194
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: fstab-sys ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: rootfs-block ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: terminfo ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: udev-rules ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: Skipping udev rule: 91-permissions.rules
+Sep 17 15:26:22 vertica-65 dracut[1765]: Skipping udev rule: 80-drivers-modprobe.rules
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: biosdevname ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: dracut-systemd ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: usrmount ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: base ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: fs-lib ***
+Sep 17 15:26:22 vertica-65 dracut[1765]: *** Including module: kdumpbase ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Including module: memstrack ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Including module: microcode_ctl-fw_dir_override ***
+Sep 17 15:26:23 vertica-65 dracut[1765]:   microcode_ctl module: mangling fw_dir
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: reset fw_dir to "/lib/firmware/updates /lib/firmware"
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:       microcode_ctl: intel: caveats check for kernel version "4.18.0-553.16.1.el8_10.x86_64" passed, adding "/usr/share/microcode_ctl/ucode_with_caveats/intel" to fw_dir variable
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-2d-07"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-2d-07" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-4e-03"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-4e-03" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-4f-01"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-4f-01" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-55-04"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-55-04" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-5e-03"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-5e-03" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-8c-01"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-8c-01" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-8e-9e-0x-0xca"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-8e-9e-0x-0xca" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-8e-9e-0x-dell"...
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: configuration "intel-06-8e-9e-0x-dell" is ignored
+Sep 17 15:26:23 vertica-65 dracut[1765]:     microcode_ctl: final fw_dir: "/usr/share/microcode_ctl/ucode_with_caveats/intel /lib/firmware/updates /lib/firmware"
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Including module: shutdown ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Including module: squash ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Including modules done ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Installing kernel module dependencies ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Installing kernel module dependencies done ***
+Sep 17 15:26:23 vertica-65 dracut[1765]: *** Resolving executable dependencies ***
+Sep 17 15:26:24 vertica-65 dracut[1765]: *** Resolving executable dependencies done***
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Hardlinking files ***
+Sep 17 15:26:25 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:3b:b1 detected!
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Hardlinking files done ***
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Generating early-microcode cpio image ***
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Constructing GenuineIntel.bin ***
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Store current command line parameters ***
+Sep 17 15:26:25 vertica-65 dracut[1765]: Stored kernel commandline:
+Sep 17 15:26:25 vertica-65 dracut[1765]:  rd.lvm.lv=rhel_vertica-node/root
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Install squash loader ***
+Sep 17 15:26:25 vertica-65 dracut[1765]: *** Stripping files ***
+Sep 17 15:26:26 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:98:7e detected!
+Sep 17 15:26:26 vertica-65 dracut[1765]: *** Stripping files done ***
+Sep 17 15:26:26 vertica-65 dracut[1765]: *** Squashing the files inside the initramfs ***
+Sep 17 15:26:27 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:00:99 detected!
+Sep 17 15:26:27 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:5a:01 detected!
+Sep 17 15:26:27 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:bb:fe detected!
+Sep 17 15:26:27 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:26:27 vertica-65 NetworkManager[859]: <warn>  [1726601187.8957] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:26:34 vertica-65 dracut[1765]: *** Squashing the files inside the initramfs done ***
+Sep 17 15:26:34 vertica-65 dracut[1765]: *** Creating image file '/boot/initramfs-4.18.0-553.16.1.el8_10.x86_64kdump.img' ***
+Sep 17 15:26:34 vertica-65 dracut[1765]: *** Creating initramfs image file '/boot/initramfs-4.18.0-553.16.1.el8_10.x86_64kdump.img' done ***
+Sep 17 15:26:35 vertica-65 kdumpctl[981]: kdump: kexec: loaded kdump kernel
+Sep 17 15:26:35 vertica-65 kdumpctl[981]: kdump: Starting kdump: [OK]
+Sep 17 15:26:35 vertica-65 systemd[1]: Started Crash recovery kernel arming.
+-- Subject: Unit kdump.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit kdump.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:26:35 vertica-65 systemd[1]: Startup finished in 808ms (kernel) + 3.114s (initrd) + 27.706s (userspace) = 31.630s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- All system services necessary queued for starting at boot have been
+-- started. Note that this does not mean that the machine is now idle as services
+-- might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 808575 microseconds.
+-- 
+-- Initial RAM disk start-up required 3114889 microseconds.
+-- 
+-- Userspace start-up required 27706748 microseconds.
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:fb:ce detected!
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:d9:30 detected!
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:16:bb detected!
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:26:38 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:19:33 detected!
+Sep 17 15:26:38 vertica-65 NetworkManager[859]: <warn>  [1726601198.1809] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:26:41 vertica-65 systemd[1]: systemd-hostnamed.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:8b:c9 detected!
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:19:80 detected!
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:fb:ce detected!
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:15:ea detected!
+Sep 17 15:26:48 vertica-65 NetworkManager[859]: <warn>  [1726601208.5054] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:26:48 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:df:91 detected!
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:9a:3b detected!
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:16:bb detected!
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:3e:98 detected!
+Sep 17 15:26:58 vertica-65 NetworkManager[859]: <warn>  [1726601218.7059] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:26:58 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:32:51 detected!
+Sep 17 15:27:08 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:08 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:94:a0 detected!
+Sep 17 15:27:08 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:9a:3b detected!
+Sep 17 15:27:09 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:67:bd detected!
+Sep 17 15:27:09 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:67:bd detected!
+Sep 17 15:27:09 vertica-65 NetworkManager[859]: <warn>  [1726601229.0486] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:27:09 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:63:86 detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:3e:98 detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:3e:98 detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:19 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:27:19 vertica-65 NetworkManager[859]: <warn>  [1726601239.4167] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:27:22 vertica-65 chronyd[875]: Selected source 45.83.234.123 (2.rhel.pool.ntp.org)
+Sep 17 15:27:23 vertica-65 sshd[7391]: Accepted password for root from 10.100.244.242 port 57200 ssh2
+Sep 17 15:27:24 vertica-65 systemd[1]: Created slice User Slice of UID 0.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[1]: Starting User runtime directory /run/user/0...
+-- Subject: Unit user-runtime-dir@0.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit user-runtime-dir@0.service has begun starting up.
+Sep 17 15:27:24 vertica-65 systemd-logind[863]: New session 1 of user root.
+-- Subject: A new session 1 has been created for user root
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 1 has been created for the user root.
+-- 
+-- The leading process of the session is 7391.
+Sep 17 15:27:24 vertica-65 systemd[1]: Started User runtime directory /run/user/0.
+-- Subject: Unit user-runtime-dir@0.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit user-runtime-dir@0.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[1]: Starting User Manager for UID 0...
+-- Subject: Unit user@0.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit user@0.service has begun starting up.
+Sep 17 15:27:24 vertica-65 systemd[7395]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep 17 15:27:24 vertica-65 systemd[7395]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Starting D-Bus User Message Bus Socket.
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Listening on D-Bus User Message Bus Socket.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[7395]: Startup finished in 43ms.
+-- Subject: User manager start-up is now complete
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The user manager instance for user 0 has been started. All services queued
+-- for starting have been started. Note that other services might still be starting
+-- up or be started at any later time.
+-- 
+-- Startup of the manager took 43821 microseconds.
+Sep 17 15:27:24 vertica-65 systemd[1]: Started User Manager for UID 0.
+-- Subject: Unit user@0.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit user@0.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 systemd[1]: Started Session 1 of user root.
+-- Subject: Unit session-1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit session-1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 17 15:27:24 vertica-65 sshd[7391]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:d9:30 detected!
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:76:ca detected!
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:16:bb detected!
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:bb:fe detected!
+Sep 17 15:27:29 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:32:51 detected!
+Sep 17 15:27:29 vertica-65 NetworkManager[859]: <warn>  [1726601249.7036] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:27:39 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:40 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:02:03 detected!
+Sep 17 15:27:40 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:76:ca detected!
+Sep 17 15:27:40 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:94:a0 detected!
+Sep 17 15:27:40 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:27:40 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:40 vertica-65 NetworkManager[859]: <warn>  [1726601260.2419] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:27:45 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:27:45 vertica-65 jenkins[7444]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:27:45 vertica-65 jenkins[7444]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:27:45 vertica-65 jenkins[7444]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:27:45 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:27:45 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:45 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:45 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:27:45 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:27:45 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:27:45 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:27:46 vertica-65 jenkins[7478]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:27:46 vertica-65 jenkins[7478]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:27:46 vertica-65 jenkins[7478]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:46 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:27:46 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:27:46 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:27:46 vertica-65 jenkins[7512]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:27:46 vertica-65 jenkins[7512]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:27:46 vertica-65 jenkins[7512]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:46 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:27:46 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:27:46 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:27:46 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:27:47 vertica-65 jenkins[7546]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:27:47 vertica-65 jenkins[7546]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:27:47 vertica-65 jenkins[7546]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:47 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:27:47 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:27:47 vertica-65 systemd[1]: Starting Jenkins Continuous Integration Server...
+-- Subject: Unit jenkins.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has begun starting up.
+Sep 17 15:27:47 vertica-65 jenkins[7580]: Error: A JNI error has occurred, please check your installation and try again
+Sep 17 15:27:47 vertica-65 jenkins[7580]: Exception in thread "main" java.lang.UnsupportedClassVersionError: executable/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.lang.ClassLoader.defineClass1(Native Method)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.security.AccessController.doPrivileged(Native Method)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+Sep 17 15:27:47 vertica-65 jenkins[7580]:         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:47 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Service RestartSec=100ms expired, scheduling restart.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Automatic restarting of the unit jenkins.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Sep 17 15:27:47 vertica-65 systemd[1]: Stopped Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has finished shutting down.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Start request repeated too quickly.
+Sep 17 15:27:47 vertica-65 systemd[1]: jenkins.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- The unit jenkins.service has entered the 'failed' state with result 'exit-code'.
+Sep 17 15:27:47 vertica-65 systemd[1]: Failed to start Jenkins Continuous Integration Server.
+-- Subject: Unit jenkins.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+-- 
+-- Unit jenkins.service has failed.
+-- 
+-- The result is failed.
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:15:ea detected!
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:15:ea detected!
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:16:bb detected!
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:27:50 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:8b:c9 detected!
+Sep 17 15:27:50 vertica-65 NetworkManager[859]: <warn>  [1726601270.5831] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:3b:b1 detected!
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:98:7e detected!
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:76:ca detected!
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:28:00 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:76:ca detected!
+Sep 17 15:28:00 vertica-65 NetworkManager[859]: <warn>  [1726601280.9316] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:10 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:28:10 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:76:ca detected!
+Sep 17 15:28:11 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:53:03 detected!
+Sep 17 15:28:11 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:63:86 detected!
+Sep 17 15:28:11 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:28:11 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:8b:c9 detected!
+Sep 17 15:28:11 vertica-65 NetworkManager[859]: <warn>  [1726601291.3947] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:94:a0 detected!
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:19:33 detected!
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:d9:30 detected!
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:bb:fe detected!
+Sep 17 15:28:21 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:3e:98 detected!
+Sep 17 15:28:21 vertica-65 NetworkManager[859]: <warn>  [1726601301.7305] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:31 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:d9:30 detected!
+Sep 17 15:28:31 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:98:7e detected!
+Sep 17 15:28:31 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:15:ea detected!
+Sep 17 15:28:31 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:5a:01 detected!
+Sep 17 15:28:31 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:28:32 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:28:32 vertica-65 NetworkManager[859]: <warn>  [1726601312.0457] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:3b:b1 detected!
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:9e:a4 detected!
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:19:33 detected!
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:8b:c9 detected!
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:63:86 detected!
+Sep 17 15:28:42 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:9e:3e:98 detected!
+Sep 17 15:28:42 vertica-65 NetworkManager[859]: <warn>  [1726601322.4438] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:d9:30 detected!
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:8b:c9 detected!
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:16:bb detected!
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:15:ea detected!
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:15:ea detected!
+Sep 17 15:28:52 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:15:ea detected!
+Sep 17 15:28:52 vertica-65 NetworkManager[859]: <warn>  [1726601332.9303] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:29:02 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:3b:b1 detected!
+Sep 17 15:29:02 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:63:86 detected!
+Sep 17 15:29:02 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:16:bb detected!
+Sep 17 15:29:03 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:5a:01 detected!
+Sep 17 15:29:03 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:29:03 vertica-65 NetworkManager[859]: <warn>  [1726601343.0763] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:29:03 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:16:bb detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:70:cd detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:9e:d7:7e detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:16:bb detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:8e:67:bd detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:1d:0b detected!
+Sep 17 15:29:13 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:02:d0 detected!
+Sep 17 15:29:13 vertica-65 NetworkManager[859]: <warn>  [1726601353.5538] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:8e:02:d0 detected!
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:53:03 detected!
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:fb:ce detected!
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:8e:02:d0 detected!
+Sep 17 15:29:23 vertica-65 NetworkManager[859]: <warn>  [1726601363.9423] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+Sep 17 15:29:23 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:29:33 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::1d5c:b006:d09f:4724 used by 00:50:56:9e:94:a0 detected!
+Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::b688:9d6c:e2db:8eb6 used by 00:50:56:8e:64:e4 detected!
+Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::26da:77b3:7ac5:8a0f used by 00:50:56:8e:67:bd detected!
+Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c7:c693:805:9c9b used by 00:50:56:9e:94:a0 detected!
+Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:c5:2b detected!
+Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:63:86 detected!
+Sep 17 15:29:34 vertica-65 NetworkManager[859]: <warn>  [1726601374.2908] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
