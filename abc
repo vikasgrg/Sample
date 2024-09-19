@@ -2760,3 +2760,4 @@ Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::6c
 Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::e3e1:2964:5710:f5b5 used by 00:50:56:9e:c5:2b detected!
 Sep 17 15:29:34 vertica-65 kernel: IPv6: ens192: IPv6 duplicate address fe80::379a:b9c5:efa9:d47b used by 00:50:56:8e:63:86 detected!
 Sep 17 15:29:34 vertica-65 NetworkManager[859]: <warn>  [1726601374.2908] ipv6ll[cbf6d39e20cc2777,ifindex=2]: changed: no IPv6 link local address to retry after Duplicate Address Detection failures (back off)
+abbba
